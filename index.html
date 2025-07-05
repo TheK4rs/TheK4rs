@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kars | Game Dev & Full-Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="hero">
+        <div class="particles" id="particles-js"></div>
+        <div class="container">
+            <h1 class="glitch" data-text="Yo, I'm Kars.">Yo, I'm Kars.</h1>
+            <p class="subheading typing-animation">15 y/o developer blending code, creativity, and chaos.<br>
+            Student at NTG Heliopolis High School for Applied Tech.<br>
+            Founder of <a href="https://thek4rs.github.io/helal/" target="_blank" class="team-link">Team Helal</a>.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-pulse">View Projects</a>
+                <a href="https://github.com/thek4rs" target="_blank" class="btn btn-outline btn-github">
+                    <i class="fab fa-github"></i> My GitHub
+                </a>
+            </div>
+            <div class="scroll-down">
+                <a href="#about"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <nav id="navbar">
+        <div class="container">
+            <a href="#" class="logo">Kars</a>
+            <ul class="nav-links">
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+                <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="#timeline"><i class="fas fa-road"></i> Journey</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li><a href="https://github.com/thek4rs" target="_blank" class="github-nav"><i class="fab fa-github"></i></a></li>
+            </ul>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm <strong class="highlight">Kars (Real name: Ali)</strong> — a 15-year-old Egyptian developer with a passion for building immersive digital experiences. I specialize in game development and full-stack web applications.</p>
+                    <p>Currently studying at <strong>NTG Heliopolis High School for Applied Technology</strong> (backed by NTG Clarity), where I'm deepening my knowledge in software engineering principles and advanced programming concepts.</p>
+                    
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-gamepad"></i>
+                            <div>
+                                <h4>Game Development</h4>
+                                <p>Creating interactive experiences in Unity, GameMaker, and Roblox</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>Web Development</h4>
+                                <p>Building full-stack applications with modern frameworks</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-users"></i>
+                            <div>
+                                <h4>Team Leadership</h4>
+                                <p>Founder of Team Helal, mentoring fellow developers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <div class="image-placeholder glitch-box">
+                            <img src="Myimg.png" alt="Too handsome, ain't i?">
+                        </div>
+                        <div class="tech-icons">
+                            <i class="devicon-unity-original" title="Unity"></i>
+                            <i class="devicon-cplusplus-plain" title="C++"></i>
+                            <i class="devicon-javascript-plain" title="JavaScript"></i>
+                            <i class="devicon-python-plain" title="Python"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-dark">
+        <div class="container">
+            <h2>Technical Arsenal</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Languages</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-percent="85">
+                            <span>Lua</span>
+                            <div class="skill-bar"><div class="skill-progress"></div></div>
+                        </div>
+                        <div class="skill-item" data-percent="80">
+                            <span>C++</span>
+                            <div class="skill-bar"><div class="skill-progress"></div></div>
+                        </div>
+                        <div class="skill-item" data-percent="75">
+                            <span>JavaScript</span>
+                            <div class="skill-bar"><div class="skill-progress"></div></div>
+                        </div>
+                        <div class="skill-item" data-percent="70">
+                            <span>Python</span>
+                            <div class="skill-bar"><div class="skill-progress"></div></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-gamepad"></i> Game Dev</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-percent="90">
+                            <span>Roblox Studio</span>
+                            <div class="skill-bar"><div class="skill-progress"></div></div>
+                        </div>
+                        <div class="skill-item" data-percent="80">
+                            <span>GameMaker Studio 2</span>
+                            <div class="skill-bar"><div class="skill-progress"></div></div>
+                        </div>
+                        <div class="skill-item" data-percent="75">
+                            <span>Unity</span>
+                            <div class="skill-bar"><div class="skill-progress"></div></div>
+                        </div>
+                        <div class="skill-item" data-percent="70">
+                            <span>AI Programming</span>
+                            <div class="skill-bar"><div class="skill-progress"></div></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & More</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-percent="85">
+                            <span>Git/GitHub</span>
+                            <div class="skill-bar"><div class="skill-progress"></div></div>
+                        </div>
+                        <div class="skill-item" data-percent="80">
+                            <span>VS Code</span>
+                            <div class="skill-bar"><div class="skill-progress"></div></div>
+                        </div>
+                        <div class="skill-item" data-percent="75">
+                            <span>UI/UX Design</span>
+                            <div class="skill-bar"><div class="skill-progress"></div></div>
+                        </div>
+                        <div class="skill-item" data-percent="70">
+                            <span>Agile Development</span>
+                            <div class="skill-bar"><div class="skill-progress"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="github-stats">
+                <h3>My GitHub Activity</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <i class="fas fa-code-branch"></i>
+                        <h4>Repositories</h4>
+                        <p id="repo-count">Loading...</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-star"></i>
+                        <h4>Stars</h4>
+                        <p id="star-count">Loading...</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-code-commit"></i>
+                        <h4>Commits</h4>
+                        <p id="commit-count">Loading...</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-history"></i>
+                        <h4>Contributions</h4>
+                        <p id="contribution-count">Loading...</p>
+                    </div>
+                </div>
+                <a href="https://github.com/thek4rs" target="_blank" class="btn btn-outline btn-github">
+                    <i class="fab fa-github"></i> Explore My GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://thek4rs.github.io/helal/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/thek4rs/helal" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Team Helal</h3>
+                    <p>A creative collective focused on building meaningful digital experiences through games and applications.</p>
+                    <div class="project-tech">
+                        <span>HTML/CSS</span>
+                        <span>JavaScript</span>
+                        <span>UI Design</span>
+                    </div>
+                    <div class="project-footer">
+                        <span class="project-role"><i class="fas fa-user-tie"></i> Founder & Lead Developer</span>
+                        <a href="https://thek4rs.github.io/helal/" target="_blank" class="btn btn-small">Visit Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/thek4rs" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>GameMaker AI Showcase</h3>
+                    <p>Demonstration of advanced AI behaviors in GameMaker Studio 2 including pathfinding, decision trees, and state machines.</p>
+                    <div class="project-tech">
+                        <span>GML</span>
+                        <span>AI</span>
+                        <span>Game Design</span>
+                    </div>
+                    <div class="project-footer">
+                        <span class="project-role"><i class="fas fa-code"></i> Solo Developer</span>
+                        <a href="https://github.com/thek4rs" target="_blank" class="btn btn-small">View Code</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/thek4rs" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3>Unity 2.5D Platformer</h3>
+                    <p>A hybrid 2.5D platformer with dynamic camera systems, physics-based gameplay, and custom shader effects.</p>
+                    <div class="project-tech">
+                        <span>C#</span>
+                        <span>Unity</span>
+                        <span>Shader Graph</span>
+                    </div>
+                    <div class="project-footer">
+                        <span class="project-role"><i class="fas fa-code"></i> Gameplay Programmer</span>
+                        <a href="https://github.com/thek4rs" target="_blank" class="btn btn-small">View Code</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="more-projects">
+                <h3>More Projects on GitHub</h3>
+                <p>I'm constantly working on new projects and experiments. Check out my GitHub for the complete collection.</p>
+                <a href="https://github.com/thek4rs" target="_blank" class="btn btn-github">
+                    <i class="fab fa-github"></i> View All Projects
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="timeline" class="section bg-dark">
+        <div class="container">
+            <h2>My Development Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2025</div>
+                    <div class="timeline-content">
+                        <h3>Founded Team Helal</h3>
+                        <p>Creative collective of developers and designers</p>
+                        <ul>
+                            <li>Leading development projects</li>
+                            <li>Mentoring junior members</li>
+                            <li>Establishing team identity and vision</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                        <h3>Became Advanced Developer</h3>
+                        <p>Mastered complex programming concepts</p>
+                        <ul>
+                            <li>Advanced algorithms and data structures</li>
+                            <li>System architecture and design patterns</li>
+                            <li>Professional-grade application development</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2022</div>
+                    <div class="timeline-content">
+                        <h3>Web Development</h3>
+                        <p>Expanded into full-stack web development</p>
+                        <ul>
+                            <li>Learned modern JavaScript frameworks</li>
+                            <li>Built responsive web applications</li>
+                            <li>Mastered backend development</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2021</div>
+                    <div class="timeline-content">
+                        <h3>Game Development Start</h3>
+                        <p>Began creating games and interactive experiences</p>
+                        <ul>
+                            <li>First Roblox experiences</li>
+                            <li>GameMaker Studio 2 projects</li>
+                            <li>Unity prototype development</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2020</div>
+                    <div class="timeline-content">
+                        <h3>First Lines of Code</h3>
+                        <p>Began programming journey with C++</p>
+                        <ul>
+                            <li>Learned core programming concepts</li>
+                            <li>Built simple console applications</li>
+                            <li>Developed passion for problem-solving</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="contact-intro">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email Me</h3>
+                        <a href="mailto:alie48041@gmail.com">alie48041@gmail.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/thek4rs" target="_blank">github.com/thek4rs</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-discord"></i>
+                        <h3>Discord</h3>
+                        <p>@k4rs.exe</p>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm" method="POST" action="https://formsubmit.co/alie48041@gmail.com">
+                    <!-- FormSubmit hidden configs -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="box">
+
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                   <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Kars</h3>
+                    <p>15 y/o developer creating digital experiences through code and creativity.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/thek4rs" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="mailto:alie48041@gmail.com"><i class="fas fa-envelope"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kars. All rights reserved.</p>
+                <p>Built with <i class="fas fa-heart"></i> and pure code</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
