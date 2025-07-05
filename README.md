@@ -46,4 +46,4 @@
 
 • Staying Cool😎
 
-<sub><sup>btw check my portfolio [Here]()</sup></sub>
+<sub><sup>btw check my portfolio [Here](https://thek4rs.github.io/TheK4rs/)</sup></sub>
